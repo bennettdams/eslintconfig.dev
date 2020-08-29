@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { Card } from '../components/Card'
 
 export const Home = (): JSX.Element => (
   <>
@@ -9,22 +10,40 @@ export const Home = (): JSX.Element => (
     </Head>
 
     <main>
-      <p className="text-center">Select your framework:</p>
+      <h2 className="text-xl text-center font-bold">Select your framework:</h2>
 
-      <div className="flex">
+      <div className="flex mt-20 space-x-40">
         <div className="flex-1">
           <Link href="/react">
-            <a>React</a>
+            <div>
+              <Card isHoverable>
+                <div className="h-20 w-20 mx-auto flex items-center justify-center">
+                  <a>React</a>
+                </div>
+              </Card>
+            </div>
           </Link>
         </div>
         <div className="flex-1">
           <Link href="/nextjs">
-            <a>Next.js</a>
+            <div>
+              <Card isNotAllowed>
+                <div className="h-20 w-20 mx-auto flex items-center justify-center">
+                  <a>Next.js</a>
+                </div>
+              </Card>
+            </div>
           </Link>
         </div>
         <div className="flex-1">
           <Link href="/vue">
-            <a>Vue</a>
+            <div>
+              <Card isNotAllowed>
+                <div className="h-20 w-20 mx-auto flex items-center justify-center">
+                  <a>Vue</a>
+                </div>
+              </Card>
+            </div>
           </Link>
         </div>
       </div>
