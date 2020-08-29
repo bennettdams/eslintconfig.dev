@@ -46,7 +46,9 @@
     "jest": "^25.2.3",
     "jest-watch-typeahead": "^0.5.0",
     "lint-staged": "^10.0.10",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^2.0.2",
+    "tailwindcss": "^1.7.6",
     "typescript": "^3.8.3"
   }
 }
