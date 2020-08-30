@@ -14,11 +14,11 @@ export const Home = (): JSX.Element => (
 
       <div className="flex mt-20 space-x-40">
         <div className="flex-1">
-          <Link href="/react">
+          <Link href="/cra">
             <div>
               <Card isHoverable>
-                <div className="h-20 w-20 mx-auto flex items-center justify-center">
-                  <a>React</a>
+                <div className="h-20 w-full mx-auto flex items-center justify-center">
+                  <a>Create React App</a>
                 </div>
               </Card>
             </div>
@@ -28,7 +28,7 @@ export const Home = (): JSX.Element => (
           <Link href="/nextjs">
             <div>
               <Card isNotAllowed>
-                <div className="h-20 w-20 mx-auto flex items-center justify-center">
+                <div className="h-20 w-full mx-auto flex items-center justify-center">
                   <a>Next.js</a>
                 </div>
               </Card>
@@ -39,7 +39,7 @@ export const Home = (): JSX.Element => (
           <Link href="/vue">
             <div>
               <Card isNotAllowed>
-                <div className="h-20 w-20 mx-auto flex items-center justify-center">
+                <div className="h-20 w-full mx-auto flex items-center justify-center">
                   <a>Vue</a>
                 </div>
               </Card>

@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
           <span className="ml-3 text-sm text-gray-500">Created with</span>
           <span className="ml-3 text-sm text-gray-500">
             <a
-              href="https://twitter.com/bennettdams"
+              href="https://nextjs.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
           </span>
           <span className="ml-3 text-sm text-gray-500">
             <a
-              href="https://twitter.com/bennettdams"
+              href="https://www.typescriptlang.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
           </span>
           <span className="ml-3 text-sm text-gray-500">
             <a
-              href="https://twitter.com/bennettdams"
+              href="https://tailwindcss.com"
               target="_blank"
               rel="noopener noreferrer"
             >

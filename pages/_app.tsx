@@ -24,11 +24,11 @@ function App({ Component, pageProps }: AppProps) {
           </div>
           <div className="flex-1">
             <h2 className="italic text-gray-600">
-              Skip reading a new Medium article every 2 months
+              Skip reading a new blog post every 2 months
             </h2>
           </div>
         </div>
-        <div className="container px-32 min-h-screen min-w-full">
+        <div className="container px-32 mb-40 min-h-screen min-w-full">
           <Component {...pageProps} />
         </div>
         <Footer />
