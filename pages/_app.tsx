@@ -18,7 +18,10 @@ function App({ Component, pageProps }: AppProps) {
           <div className="flex-1">
             <Link href="/">
               <a>
-                <h1 className="text-4xl">eslintconfig.dev ⚙️📋</h1>
+                <h1 className="text-4xl text-center">⚙️📋</h1>
+                <h1 className="text-4xl hover:text-orange-500">
+                  eslintconfig.dev
+                </h1>
               </a>
             </Link>
           </div>

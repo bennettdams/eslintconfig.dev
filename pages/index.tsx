@@ -10,7 +10,7 @@ export const Home = (): JSX.Element => (
     </Head>
 
     <main>
-      <h2 className="text-xl text-center font-bold">Select your framework:</h2>
+      <h2 className="text-xl text-center font-bold">Select your template:</h2>
 
       <div className="flex mt-20 space-x-40">
         <div className="flex-1">
