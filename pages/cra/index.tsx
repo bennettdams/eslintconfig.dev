@@ -14,7 +14,7 @@ export default function PageCreateReactApp() {
       <Section>
         <Title>Select your setup:</Title>
 
-        <div className="flex mt-10 space-x-40">
+        <div className="flex mt-10 space-x-4 md:space-x-40">
           <div className="flex-1">
             <Link href="/cra/typescript-prettier">
               <div>

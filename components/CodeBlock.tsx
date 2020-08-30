@@ -4,8 +4,13 @@ export const CodeBlock: React.FC<{
   isScrollable?: boolean
 }> = ({ children, isScrollable = false }) => {
   const [isHovered, setIsHovered] = useState<boolean>()
+  const [isClicked, setIsClicked] = useState<boolean>()
 
   const handleClick = () => {
+    setIsClicked(true)
+  }
+
+  const handleCopyClick = () => {
     navigator.clipboard.writeText(children.toString())
   }
 
@@ -14,11 +19,12 @@ export const CodeBlock: React.FC<{
       className="code-block shadow-lg bg-gray-800 font-mono text-gray-100 rounded-lg h-full w-full"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={handleClick}
     >
-      {isHovered && (
+      {(isHovered || isClicked) && (
         <div
           className="float-left p-2 m-2 cursor-pointer rounded-md bg-gray-600"
-          onClick={handleClick}
+          onClick={handleCopyClick}
           title="copy"
         >
           <svg
@@ -32,10 +38,11 @@ export const CodeBlock: React.FC<{
           </svg>
         </div>
       )}
-      <div className="px-20 py-10">
+      <div className="px-8 md:px-20 py-10">
         <p
           className={
-            `whitespace-pre` + ` ${isScrollable && 'overflow-x-scroll'}`
+            `whitespace-pre` +
+            ` ${isScrollable ? 'overflow-x-scroll' : 'overflow-scroll'}`
           }
         >
           {children}
