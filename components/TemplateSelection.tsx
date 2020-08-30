@@ -6,7 +6,7 @@ export const TemplateSelection = () => {
   return (
     <>
       <Title>Select your template:</Title>
-      <div className="flex mt-10 space-x-4 md:space-x-40">
+      <div className="mt-10 flex flex-col lg:flex-row space-y-4 lg:space-y-0 space-x-0 lg:space-x-40">
         <div className="flex-1">
           <Link href="/cra">
             <div>
