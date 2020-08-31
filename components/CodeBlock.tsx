@@ -42,7 +42,7 @@ export const CodeBlock: React.FC<{
         <p
           className={
             `whitespace-pre` +
-            ` ${isScrollable && 'overflow-scroll md:overflow-x-scroll'}`
+            ` ${isScrollable && 'overflow-x-auto'}`
           }
         >
           {children}
