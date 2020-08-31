@@ -14,7 +14,7 @@ function App({ Component, pageProps }: AppProps) {
           rel="stylesheet"
         />
       </Head>
-      <div className="bg-gradient-to-b from-blue-900 via-blue-800 to-orange-800 text-gray-300 min-h-screen h-full w-full font-sans">
+      <div className="bg-gradient-to-b from-blue-700 to-orange-800 text-gray-300 min-h-screen h-full w-full font-sans">
         <div className="flex flex-col items-center justify-center mx-auto py-10 min-h-full h-64 w-full">
           <ContributeButton />
           <div className="flex-1">
@@ -28,7 +28,7 @@ function App({ Component, pageProps }: AppProps) {
             </Link>
           </div>
           <div className="flex-1">
-            <h2 className="italic text-gray-600">
+            <h2 className="italic text-orange-200">
               Skip reading a new blog post every 2 months
             </h2>
           </div>
