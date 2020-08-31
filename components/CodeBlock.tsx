@@ -40,10 +40,7 @@ export const CodeBlock: React.FC<{
       )}
       <div className="px-8 md:px-20 py-10">
         <p
-          className={
-            `whitespace-pre` +
-            ` ${isScrollable && 'overflow-x-auto'}`
-          }
+          className={`whitespace-pre` + ` ${isScrollable && 'overflow-x-auto'}`}
         >
           {children}
         </p>
