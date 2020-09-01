@@ -3,12 +3,7 @@ import { useState } from 'react'
 export const CodeBlock: React.FC<{
   isScrollable?: boolean
 }> = ({ children, isScrollable = false }) => {
-  const [isHovered, setIsHovered] = useState<boolean>()
-  const [isClicked, setIsClicked] = useState<boolean>()
-
-  const handleClick = () => {
-    setIsClicked(true)
-  }
+  const [showButton, setShowButton] = useState<boolean>(false)
 
   const handleCopyClick = () => {
     navigator.clipboard.writeText(children.toString())
@@ -17,11 +12,11 @@ export const CodeBlock: React.FC<{
   return (
     <div
       className="code-block shadow-lg bg-gray-800 font-mono text-gray-100 rounded-lg h-full w-full"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      onClick={handleClick}
+      onMouseEnter={() => setShowButton(true)}
+      onMouseLeave={() => setShowButton(false)}
+      onClick={() => setShowButton((isShown) => !isShown)}
     >
-      {(isHovered || isClicked) && (
+      {showButton && (
         <div
           className="float-left p-2 m-2 cursor-pointer rounded-md bg-gray-600"
           onClick={handleCopyClick}

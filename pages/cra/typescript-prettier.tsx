@@ -5,7 +5,7 @@ import { PageHeader } from '../../components/PageHeader'
 
 export default function PageCreateReactAppTypeScriptPrettier() {
   return (
-    <div>
+    <div className="animate-fade-in">
       <PageHeader>TypeScript &amp; Prettier</PageHeader>
       <Section title="Dependencies">
         <CodeBlock isScrollable>

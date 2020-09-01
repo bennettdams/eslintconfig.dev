@@ -11,7 +11,7 @@ export default function PageCreateReactApp() {
       <Section>
         <TemplateSelection />
       </Section>
-      <Section>
+      <Section fadeIn>
         <Title>Select your setup:</Title>
 
         <div className="mt-10 flex flex-col lg:flex-row space-y-4 lg:space-y-0 space-x-0 lg:space-x-40">
