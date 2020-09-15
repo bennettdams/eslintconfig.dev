@@ -15,7 +15,7 @@ eslint-plugin-react@^7.20.3 eslint-plugin-react-hooks@^4.0.8
 `}
         </CodeBlock>
       </Section>
-      <Section title=".eslintrc.json">
+      <Section title=".eslintrc.js">
         <CodeBlock isScrollable>
           {`module.exports = {
   parser: "@typescript-eslint/parser",
