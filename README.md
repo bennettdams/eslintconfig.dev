@@ -1,5 +1,7 @@
 # eslintconfig.dev ⚙️📋
 
+*Contributions are welcome!*
+
 ## Curated collection of ESLint configurations
 
 The website provides all necessary dependencies and configurations for your preferred ESLint setup. Instead of using predefined configs from npm we show all steps needed for you to integrate it in your setup manually.
