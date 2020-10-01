@@ -9,7 +9,7 @@ export default function PageCreateReactAppTypeScriptPrettier() {
       <PageHeader>TypeScript &amp; Prettier</PageHeader>
       <Section title="Dependencies">
         <CodeBlock isScrollable>
-          {`npm install --save-dev eslint-config-react-app @typescript-eslint/eslint-plugin@^4.0.0 @typescript-eslint/parser@^4.0.0 babel-eslint@^10.0.0 eslint@^7.5.0 eslint-plugin-flowtype@^5.2.0 eslint-plugin-import@^2.22.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-react@^7.20.3 eslint-plugin-react-hooks@^4.0.8`}
+          {`npm install --save-dev eslint-config-react-app @typescript-eslint/eslint-plugin@^4.0.0 @typescript-eslint/parser@^4.0.0 babel-eslint@^10.0.0 eslint@^7.5.0 eslint-plugin-flowtype@^5.2.0 eslint-plugin-import@^2.22.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-react@^7.20.3 eslint-plugin-react-hooks@^4.0.8 prettier@^2.1.2 eslint-config-prettier@^6.12.0 eslint-plugin-prettier@^3.1.4`}
         </CodeBlock>
       </Section>
       <Section title=".eslintrc.js">
