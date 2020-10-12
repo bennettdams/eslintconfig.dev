@@ -20,7 +20,9 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/566863?v=4",
       "profile": "http://www.twitter.com/mpv",
       "contributions": [
-        "bug"
+        "bug",
+        "code",
+        "tool"
       ]
     }
   ],
