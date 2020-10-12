@@ -9,32 +9,20 @@ export default function PageCreateReactAppTypeScriptPrettier() {
       <PageHeader>TypeScript &amp; Prettier</PageHeader>
       <Section title="Dependencies">
         <CodeBlock isScrollable>
-          {`npm install --save-dev eslint-config-react-app @typescript-eslint/eslint-plugin@^4.0.0 @typescript-eslint/parser@^4.0.0 babel-eslint@^10.0.0 eslint@^7.5.0 eslint-plugin-flowtype@^5.2.0 eslint-plugin-import@^2.22.0 eslint-plugin-jsx-a11y@^6.3.1 eslint-plugin-react@^7.20.3 eslint-plugin-react-hooks@^4.0.8 prettier@^2.1.2 eslint-config-prettier@^6.12.0 eslint-plugin-prettier@^3.1.4`}
+          {`npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier`}
         </CodeBlock>
       </Section>
       <Section title=".eslintrc.js">
         <CodeBlock isScrollable>
           {`module.exports = {
-  parser: "@typescript-eslint/parser",
   extends: [
-    "react-app", // Uses the recommended rules Create React App
-    "plugin:@typescript-eslint/recommended", // Uses the recommended rules from @typescript-eslint/eslint-plugin
-    "prettier/@typescript-eslint", // Uses eslint-config-prettier to disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
-    "plugin:prettier/recommended" // Should be last in the list. Enables eslint-plugin-prettier and eslint-config-prettier. This will display prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
+    "react-app", // create-react-app base settings
+    "eslint:recommended", // recommended eslint rules
+    "plugin:@typescript-eslint/recommended", // recommended typescript rules
+    "prettier/@typescript-eslint", // disables typescript formatting rules
+    "plugin:prettier/recommended", // disables eslint formatting rules and uses prettier (must be last)
   ],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true // Allows for the parsing of JSX
-    },
-    ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
-    sourceType: "module" // Allows for the use of imports
-  },
   rules: {},
-  settings: {
-    react: {
-      version: "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
-    }
-  }
 };
 
 `}
