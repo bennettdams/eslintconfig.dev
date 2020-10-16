@@ -2,17 +2,17 @@
 
 This environment can be used to test out configurations for CRA v4.x with TypeScript in isolation by developing inside a Docker container.
 
-The setup results in encapsulated environment with a fresh CRA installation. It uses Node 14 and brings some pre-installed VS Code extensions with itunder the hood (see `.devcontainer`).
+The setup results in encapsulated environment with a fresh CRA installation. It uses Node 14 and brings some pre-installed VS Code extensions with it under the hood (see `.devcontainer`).
 
 ## Initial setup
 
-1. Open the `cra-4-typescript` folder directly with VS Code (don't open the parent folder of the repo)
+1. Open the `cra-4-typescript` folder directly with VS Code (not the parent folder of the repo)
 
     `code ~/eslintconfig.dev/environments/cra-4-typescript`
 
 2. Open VS Code's command palette (default `CTRL + Shift + P`)
 
-3. Select "Remote-Containers: Rebuild and Reopen in Container" and let it run
+3. Select `Remote-Containers: Rebuild and Reopen in Container` and let it run
 
 4. Open bash via VS Code and install CRA v4.x with TypeScript
 
