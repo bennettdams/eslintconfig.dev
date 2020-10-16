@@ -22,14 +22,21 @@ The setup results in encapsulated environment with a fresh CRA installation. It 
 
 5. Follow our installation steps from `eslintconfig.dev` for this environment
 
-6. (optional) Reload window (VS Code command palette => "Reload Window") to re-initialize the setup
+6. (optional) Reload window (VS Code command palette => "Reload Window") to re-initialize the environment
 
-7. Allow ESLint for this workspace. Open any `*.tsx` file and look at the bottom/status bar of VS Code, "ESLint" should be in red text. Click on it an select **Allow** (not "Allow anywhere") to enable ESLint for this folder.
+7. (optional) _Sometimes_ you need to allow ESLint for this workspace. Open any `*.tsx` file and look at the bottom/status bar of VS Code, "ESLint" should be in red text. Click on it an select **Allow** (not "Allow anywhere") to enable ESLint for this folder.
 
-8. (optional) Reload window (VS Code command palette => "Reload Window") to re-initialize the setup
+8. (optional) Reload window (VS Code command palette => "Reload Window") to re-initialize the environment
 
 9. You're done! Edit files (e.g. `App.tsx`) and check whether
-    - the ESLint rules (e.g. `react-hooks/exhaustive-deps`)
-    - the Prettier rules (e.g. `tabWidth` of the `.prettierrc`) are applied
+    - the ESLint rules (e.g. `react-hooks/exhaustive-deps`) are applied
+    - the Prettier rules (e.g. `tabWidth` of the `.prettierrc`) are executed and ESLint does not want to change them
 
-If you think that something messed up you can easily delete everything in the folder, reset the environment setup via Git and rebuild the container.
+## Reset the environment
+
+If you think that something messed up you can easily reset the environment:
+
+1. Close VS Code
+2. Delete everything in the folder, reset the environment setup files via Git
+3. Remove the container (`docker ps -a` -> `docker rm <your-image-id>`)
+4. Now you can just follow the `Initial setup` instructions again
