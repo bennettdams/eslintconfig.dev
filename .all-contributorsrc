@@ -5,6 +5,17 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
+      {
+      "login": "bennettdams",
+      "name": "Bennett",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29319414?v=4",
+      "profile": "https://github.com/bennettdams",
+      "contributions": [
+        "bug",
+        "code",
+        "tool"
+      ]
+    },
     {
       "login": "MichaelDeBoey",
       "name": "Michaël De Boey",
@@ -19,17 +30,6 @@
       "name": "Mike Vosseller",
       "avatar_url": "https://avatars0.githubusercontent.com/u/566863?v=4",
       "profile": "http://www.twitter.com/mpv",
-      "contributions": [
-        "bug",
-        "code",
-        "tool"
-      ]
-    },
-    {
-      "login": "bennettdams",
-      "name": "Bennett",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/29319414?v=4",
-      "profile": "https://github.com/bennettdams",
       "contributions": [
         "bug",
         "code",
