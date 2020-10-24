@@ -1,0 +1,9 @@
+# ignore everything, besides our environment setup
+*
+!.prettierrc
+!.gitignore
+!README.md
+!.vscode
+!.vscode/*
+!.devcontainer
+!.devcontainer/*
