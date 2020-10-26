@@ -28,7 +28,7 @@ The website provides all necessary dependencies and configurations for your pref
 
 Use the corresponding environment to develop in isolation inside a Docker container:
 
-- Create React App 4 & TypeScript: [https://github.com/bennettdams/eslintconfig.dev/tree/master/environments/cra-4-typescript](https://github.com/bennettdams/eslintconfig.dev/tree/master/environments/cra-4-typescript)
+- [Create React App 4 & TypeScript](https://github.com/bennettdams/eslintconfig.dev/tree/master/environments/cra-4-typescript)
 
 ### Website
 
