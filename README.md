@@ -1,9 +1,7 @@
 # eslintconfig.dev ⚙️📋
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 _Contributions are welcome!_
@@ -45,13 +43,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/bennettdams"><img src="https://avatars3.githubusercontent.com/u/29319414?v=4" width="100px;" alt=""/><br /><sub><b>Bennett</b></sub></a><br /><a href="https://github.com/bennettdams/eslintconfig.dev/issues?q=author%3Abennettdams" title="Bug reports">🐛</a> <a href="https://github.com/bennettdams/eslintconfig.dev/commits?author=bennettdams" title="Code">💻</a> <a href="#tool-bennettdams" title="Tools">🔧</a></td>
-    <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="#tool-MichaelDeBoey" title="Tools">🔧</a></td>
-    <td align="center"><a href="http://www.twitter.com/mpv"><img src="https://avatars0.githubusercontent.com/u/566863?v=4" width="100px;" alt=""/><br /><sub><b>Mike Vosseller</b></sub></a><br /><a href="https://github.com/bennettdams/eslintconfig.dev/issues?q=author%3Ampvosseller" title="Bug reports">🐛</a> <a href="https://github.com/bennettdams/eslintconfig.dev/commits?author=mpvosseller" title="Code">💻</a> <a href="#tool-mpvosseller" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://github.com/bennettdams"><img src="https://avatars3.githubusercontent.com/u/29319414?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bennett</b></sub></a><br /><a href="https://github.com/bennettdams/eslintconfig.dev/issues?q=author%3Abennettdams" title="Bug reports">🐛</a> <a href="https://github.com/bennettdams/eslintconfig.dev/commits?author=bennettdams" title="Code">💻</a> <a href="#tool-bennettdams" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="#tool-MichaelDeBoey" title="Tools">🔧</a></td>
+    <td align="center"><a href="http://www.twitter.com/mpv"><img src="https://avatars0.githubusercontent.com/u/566863?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mike Vosseller</b></sub></a><br /><a href="https://github.com/bennettdams/eslintconfig.dev/issues?q=author%3Ampvosseller" title="Bug reports">🐛</a> <a href="https://github.com/bennettdams/eslintconfig.dev/commits?author=mpvosseller" title="Code">💻</a> <a href="#tool-mpvosseller" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://github.com/cabello"><img src="https://avatars.githubusercontent.com/u/60936?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Danilo Cabello</b></sub></a><br /><a href="#tool-cabello" title="Tools">🔧</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
